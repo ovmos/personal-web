@@ -1,0 +1,520 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    /* font-family:  */
+    color: #48484A;
+
+}
+.first img{
+    height: 65px;
+    width: 150px;
+}
+.container{
+    display: flex;
+    margin-bottom: 0px;
+    /* border: solid black; */
+    height: 65px;
+}
+.second{
+    padding: 13px;
+    background: rgb(68, 67, 67);
+    height: 39px;
+
+}
+.second input{
+    width: 140px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 42px;
+    background: rgb(68, 67, 67);
+    padding-left: 30px;
+    /* height: 20px; */
+}
+.third{
+    height: 65px;
+    width: 1000px;
+    background: rgb(68, 67, 67);
+
+}
+.third li{
+    float: left;
+    list-style: none;
+    padding: 9px;
+    margin-top: 5px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.third ul{
+    margin: 6px;
+}
+.second-container{
+    background:url(autumn_quotes.jpeg);
+    background-repeat: no-repeat;
+    height: 300px; 
+    background-size: cover;          
+}
+.second-container p{
+    width: 400px;
+    margin: 0px 172px;
+    padding-top: 20px;
+}
+#op{
+    color: rgb(231, 104, 81);
+    font-size: 50px;
+    padding-top: 34px;
+}
+#lorem{
+    color: white;
+    font-size: 30px;
+}
+.third-container{
+    display: flex;
+    height: 60px;
+    background: rgb(236, 236, 237);
+    }
+#search-id input{
+    padding: 5px; 
+    margin: 19px 186px;
+    width: 290px;  
+    /* border: solid black;    */
+    margin-right: 0px;
+   }
+   #search-id button{
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    margin-left: -4px;
+    background: grey;
+    color: white;
+    width: 70px;
+   }
+   #nav-bar{
+    margin-left: 168px;
+   }
+   #nav-bar button{
+    padding: 8px;
+    margin: 18px 0px;
+    border: none;
+    border-radius: 4px;
+    background: rgb(222, 222, 223);
+   }
+   .fourth-container{
+       display: flex;
+       height: 300px;
+   }
+   #temperature{
+       /* border: solid black; */
+       /* width: 370px;
+       margin-left: 200px; */
+       width: 355px;
+       margin: 26px 200px;
+   }
+   #map{
+    /* border: solid black; */
+    margin: 26px -126px
+   }
+   .fourth-container p{
+    margin-left: 90px;
+   }
+   #date{
+    /* margin-top: 72px; */
+    color: red;
+    margin-bottom: 0px;
+   }
+   #map img{
+    width: 518px;
+    height: 265px;
+    margin-top: 18px;
+       
+   }
+   #city{
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
+   #degree{
+    font-size: 37px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+   }
+   #text{
+    width: 200px;
+    background-color: #eb6e4b;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 0px;
+   }
+   #points{
+    margin-left: 87px;
+    border: solid red;
+    border-right: white;
+    border-top: white;
+    border-bottom: white;
+    width: 144px;
+   }
+   #points p{
+    margin-left: 15px;
+    padding: 0px;
+    height: 10px;
+   }
+   .fifth-container{
+    display: flex;
+    height: 400px;
+    margin-top: 20px;
+   }
+   #hourly{
+    width: 469px;
+    margin: 26px 280px;
+   }
+   #hourly img{
+    width: 470px;
+    height: 292px;
+    margin-top: 0px;
+   }
+   #day{
+       margin: 26px -269px;
+       width: 375px;
+    }
+    #day img{
+        width: 382px;
+        height: 290px;
+        margin-top: 0px;
+    }
+    #font{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .sixth-container{
+        background: rgb(236, 236, 237);
+    }
+    #slider{
+    width: 955px;
+    margin-left: 175px;
+    }
+    #slider img{
+    width: 89px;
+    height: 51px;
+    padding: 6px;
+    margin: 22px;
+
+    }
+    .seventh-container{
+        background-color: #eb6e4c;    
+        height: 76px;
+    }
+    .seventh-container p{
+        text-align: center;
+        color: white;
+        margin-top: 0px;
+    }
+    #firstp{
+    padding-top: 17px;
+    margin-bottom: 4px;
+    }
+    .eighth-container{
+        display: flex;
+        height: 400px;
+    }
+    #para{
+        font-size: 14px;
+    }
+    #api{
+        width: 355px;
+        margin: 26px 200px;
+    }
+    #image{
+        width: 416;
+        margin: 26px -126px;
+    }
+    #datatime{
+        color: #78CBBF;
+    }
+    .table{
+        border-collapse: collapse;
+    }
+    .table th{
+        padding: 2pt 0;
+        text-align: left;
+        color: #78CBBF;
+    }
+    .table td{
+        padding: 2pt 0;
+        border-bottom: 1px solid #EB6E4B;
+        padding-right: 35px;
+    }
+    
+    #image img{
+        width: 400px;
+    }
+    .ninth-container{
+        height: 400px;
+        background-color: #eb6e4c;    
+    }
+    #text1{
+        width: 821px;
+        margin-left: 245px;
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+        /* margin-top: 0px; */
+    }
+    #text1 p{
+        margin-bottom: -11px;
+        margin-top: 21px;
+    }
+    #font{
+        font-size: 24px;
+    }
+    
+    #images{
+        width: 832px;
+        margin-left: 245px;
+        display: flex;
+    }
+    #images img{
+        margin: 55px 57px 0px 57px;
+        width: 27px;
+        border: solid white;
+        border-radius: 28px;
+        height: 27px;
+        padding: 10px;
+    }    
+    #icon{
+
+    }
+    #icon p{
+        text-align: center;
+        margin-top: 0px;
+        width: 116px;
+        margin-left: 23px;
+        margin-bottom: 0px;
+        color: white;
+    }
+    #icon h3{
+        text-align: center;
+        margin-top: 0px;
+        width: 87px;
+        margin-left: 39px;
+        margin-bottom: 0px;
+        color: white;
+    }
+    #font1{
+        font-size: 18px;
+    }
+    .tenth-container{
+        /* display: flex; */
+        height: 500px;
+    }
+    .row{
+        display: flex;
+        height: 492px;
+        margin: 0px 122px;
+    }
+    .tenth-container h2{
+        text-align: center;
+        margin-top: 70px;    
+        font-size: 25px;
+        
+    }
+    #orange-text{
+        color: #eb6e4b;
+        }
+    #solarradiation{
+        width: 305px;
+        margin: 35px -65px 104px 31px;
+        background-color: #f2f2f2;
+        text-align: center;
+        font-size: 19px;
+        }
+    #solarradiation img{
+        width: 60px;
+        height: 61px;
+        margin-top: -30px;
+        border-radius: 54px;
+        }
+    #globalweather{
+        width: 305px;
+        margin: 35px 115px 105px;
+        background-color: #f2f2f2;
+        text-align: center;
+        font-size: 19px;
+        padding: 7px;
+        }
+    #globalweather img{
+        width: 60px;
+        height: 61px;
+        margin-top: -30px;
+        border-radius: 54px;
+        } 
+    #roadrisk{
+        width: 305px;
+        margin: 35px -68px 105px;
+        background-color: #f2f2f2;
+        text-align: center;
+        font-size: 18px;
+        padding: 8px;
+    }
+    #roadrisk img{
+        width: 60px;
+        height: 61px;
+        margin-top: -30px;
+        border-radius: 54px;
+    }
+    .eleventh-container{
+        display: flex;
+        height: 350px;
+    }
+    #agriculture{
+        width: 50%;
+        background-color: #F2F2F2;
+    }
+    #agriculture p{
+        /* border: solid; */
+    }
+    #agriculture ul li{
+        /* padding: 10px; */
+        margin-bottom: 5px;
+    }
+    #analytics{
+        margin: 16px 36px 0px 228px;
+        height: 300px;
+    }
+    #agro{
+        width: 50%;
+        background: url(agro-field.jpeg) no-repeat;
+        background-size: cover;
+    }
+    #dashboard{
+        margin: 16px 212px 0px 34px;
+        height: 300px;
+    }
+    #dashboard p{
+        color: white;
+    }
+    #dashboard ul li{
+        color: white;
+        margin-bottom: 5px;
+    }
+    #dashboard input{
+        margin: 4px;
+        padding: 15px;
+        border-radius: 31px;
+        border: none;
+    }
+    #analytics input{
+        margin: 4px;
+        padding: 15px;
+        border-radius: 31px;
+        border: none;
+    }
+    .twelfth-container{
+        display: flex;
+        height: 350px;
+    }
+    #main{
+        width: 50%;
+        background: url(Open-weather-main-page.png);
+    }
+    #forecast{
+        width: 50%;
+        background-color: #F2F2F2;
+    }
+    #weathermaps{
+        margin: 16px 212px 0px 34px;
+        height: 300px;
+    }
+    #para2{
+        font-size: 16px;
+        margin-top: 25px;
+    }
+    #date2{
+        color: #eb6e4b;
+        margin-bottom: 0px;
+        margin-top: 35px;
+    }
+    .thirteenth-container{
+        height: 700px;
+        background-color: #F2F2F2;
+        color: #48484A;
+
+    }
+    #first-row{
+        height: 230px;
+        display: flex;
+    }
+    #productcollection{
+        width: 300px;
+        margin: 20px 30px 0px 93px;
+    }
+    #productcollection ul{
+        padding: 0px;
+        margin-left: -4px;
+    }
+    #productcollection ul li{
+        list-style-type: none;
+        padding: 5px;
+    }
+    #subscription{
+        width: 300px;
+        margin: 20px 30px 0px 61px;
+    }
+    #subscription ul{
+        padding: 0px;
+        margin-left: -4px;
+    }
+    #subscription ul li{
+        list-style-type: none;
+        padding: 5px;
+    }
+    #company{
+        width: 399px;
+        margin: 20px 30px 0px 61px;
+
+    }
+    #company p{
+        line-height: 26px;
+    }
+    #second-row{
+        height: 230px;
+        display: flex;
+    }
+    #aboutus{
+        width: 399px;
+        margin: 59px 30px 0px 61px;
+    }
+    #aboutus ul{
+        padding: 0px;
+        margin-left: -4px;
+    }
+    #aboutus ul li{
+        list-style-type: none;
+        padding: 5px;
+    }
+    #third-row{
+        height: 230px;
+        display: flex;
+    }
+    #download{
+        width: 399px;
+        margin: 0px 30px 0px 98px;
+    }
+    #downloadimages{
+        display: flex;
+        margin-bottom: 37px;
+    }
+    #downloadimages img{
+        width: 112px;
+        height: 53px;
+    }
+    #links{
+        width: 491px;
+        margin: 168px 30px 0px 350px;
+    }
+    #links img{
+        width: 20px;
+        height: 18px;
+        object-fit: contain;
+        margin-right: 56px;
+    }
+
+
